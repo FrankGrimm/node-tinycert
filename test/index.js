@@ -42,12 +42,10 @@ tc.connect(account, passphrase, function(err) {
     handle_error(err);
     console.log('Connected to account <' + account + '>');
 
-    tc.CA.create({C: 'US', O: 'node-tinycert testca', L: 'Interweb'}, function(err, ca_data) {
-        // TODO re-enable after serverside bugfix
-        //handle_error(err);
-        if (err) console.log(err); // not exiting, API is bugged there
-        //console.log('Created test CA: ' + ca_data.ca_id);
-        //var test_ca_id = ca_data.ca_id;
+    tc.CA.create({C: 'US', O: 'node-tinycert testca', L: 'Interweb', ST: 'state'}, function(err, ca_data) {
+        handle_error(err);
+        console.log('Created test CA: ' + ca_data.ca_id);
+        var test_ca_id = ca_data.ca_id;
 
         tc.CA.list(function(err, calist) {
             handle_error(err);
