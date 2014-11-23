@@ -9,7 +9,7 @@ API documentation (and your API key) available at: https://www.tinycert.org/docs
 
 First, require the library:
 ```javascript
-var tc = require('node-tinycert');
+var TinyCertSession = require('node-tinycert');
 ```
 Then, connect to your account via email, passphrase and API key:
 ```javascript
