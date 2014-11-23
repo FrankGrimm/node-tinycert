@@ -1,0 +1,24 @@
+{
+  "name": "node-tinycert",
+  "version": "1.0.0",
+  "description": "tinycert API wrapper (V1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrankGrimm/node-tinycert"
+  },
+  "keywords": [
+    "ca",
+    "api",
+    "tinycert"
+  ],
+  "author": "Frank Grimm <npm@frankgrimm.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrankGrimm/node-tinycert/issues"
+  },
+  "homepage": "https://github.com/FrankGrimm/node-tinycert"
+}
