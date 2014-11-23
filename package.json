@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/FrankGrimm/node-tinycert/issues"
   },
-  "homepage": "https://github.com/FrankGrimm/node-tinycert"
+  "homepage": "https://github.com/FrankGrimm/node-tinycert",
+  "dependencies": {
+    "request": "^2.48.0"
+  }
 }
