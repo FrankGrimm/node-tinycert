@@ -26,5 +26,3 @@ tc.connect(account, passphrase, function(err) {
 
 A full example of all supported functions can be found in test/index.js 
 
-Please note that, as of this writing, the /ca/new endpoint generates broken certificates and fails with HTTP status code 500.
-
