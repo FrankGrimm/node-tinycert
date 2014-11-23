@@ -20,7 +20,7 @@ tc.connect(account, passphrase, function(err) {
         return;
     };
     console.log('Connected to account <' + account + '>');
-}
+});
 ```
 ## Example code
 
